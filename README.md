@@ -4,7 +4,7 @@
 
 <p>使用方法：</p>
 
-  1. 控制器`#import "XYTipsAlert.h"`
+  1. 将TipsAlert导入工程，控制器`#import "XYTipsAlert.h"`。
   1. alert初始化
   
     <code> XYTipsAlert *alert = [XYTipsAlert tipsAlertWithFrame:CGRectMake(0, 500, 100, 40) Title:@"详情"]; </code>
