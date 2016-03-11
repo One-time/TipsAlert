@@ -1,7 +1,10 @@
 # TipsAlert
-按钮点击弹按钮列表，点击父视图空白处或其它响应事件，收回列表
 
-使用方法：
+简介：按钮点击弹按钮列表，点击父视图空白处或其它响应事件，收回列表。
+
+<p>使用方法：</p>
+
+  1. 控制器`#import "XYTipsAlert.h"`
   1. alert初始化
   
     <code> XYTipsAlert *alert = [XYTipsAlert tipsAlertWithFrame:CGRectMake(0, 500, 100, 40) Title:@"详情"]; </code>
