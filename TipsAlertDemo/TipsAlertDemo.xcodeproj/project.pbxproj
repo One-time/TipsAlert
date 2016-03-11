@@ -13,6 +13,7 @@
 		04CB8CCC1C92A79300614378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CB8CCA1C92A79300614378 /* Main.storyboard */; };
 		04CB8CCE1C92A79300614378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CB8CCD1C92A79300614378 /* Assets.xcassets */; };
 		04CB8CD11C92A79300614378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CB8CCF1C92A79300614378 /* LaunchScreen.storyboard */; };
+		04CB8CDA1C92A83900614378 /* XYTipsAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CB8CD91C92A83900614378 /* XYTipsAlert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		04CB8CCD1C92A79300614378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04CB8CD01C92A79300614378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04CB8CD21C92A79300614378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CB8CD81C92A83900614378 /* XYTipsAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTipsAlert.h; sourceTree = "<group>"; };
+		04CB8CD91C92A83900614378 /* XYTipsAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTipsAlert.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				04CB8CC51C92A79300614378 /* AppDelegate.m */,
 				04CB8CC71C92A79300614378 /* ViewController.h */,
 				04CB8CC81C92A79300614378 /* ViewController.m */,
+				04CB8CD81C92A83900614378 /* XYTipsAlert.h */,
+				04CB8CD91C92A83900614378 /* XYTipsAlert.m */,
 				04CB8CCA1C92A79300614378 /* Main.storyboard */,
 				04CB8CCD1C92A79300614378 /* Assets.xcassets */,
 				04CB8CCF1C92A79300614378 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04CB8CC91C92A79300614378 /* ViewController.m in Sources */,
+				04CB8CDA1C92A83900614378 /* XYTipsAlert.m in Sources */,
 				04CB8CC61C92A79300614378 /* AppDelegate.m in Sources */,
 				04CB8CC31C92A79300614378 /* main.m in Sources */,
 			);

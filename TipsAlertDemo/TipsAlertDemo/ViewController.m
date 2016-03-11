@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "XYTipsAlert.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    XYTipsAlert *alert = [XYTipsAlert tipsAlertWithFrame:CGRectMake(0, 500, 100, 40) Title:@"详情"];
+    XYTipsAlertAction *action1 = [XYTipsAlertAction tipsActionWithTitle:@"action1" handler:^(BOOL isSelected) {
+        NSLog(@"action1");
+    }];
+    XYTipsAlertAction *action2 = [XYTipsAlertAction tipsActionWithTitle:@"action2" handler:^(BOOL isSelected) {
+        NSLog(@"action2");
+    }];
+    [alert addAction:action1];
+    [alert addAction:action2];
+    [self.view addSubview:alert];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
