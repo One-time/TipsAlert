@@ -1,2 +1,22 @@
 # TipsAlert
 按钮点击弹按钮列表，点击父视图空白处或其它响应事件，收回列表
+
+使用方法：
+  1. alert初始化
+  
+    <code> XYTipsAlert *alert = [XYTipsAlert tipsAlertWithFrame:CGRectMake(0, 500, 100, 40) Title:@"详情"]; </code>
+
+  2. action初始化
+  
+    <code>    XYTipsAlertAction *action1 = [XYTipsAlertAction tipsActionWithTitle:@"action1" handler:^(BOOL isSelected) {
+        NSLog(@"action1");
+    }];
+</code>
+
+  3. 添加Action
+  
+    <code>[alert addAction:action1];</code>
+    
+  4. 将alert添加到父视图
+  
+ ` [self.view addSubview:alert];`
